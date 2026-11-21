@@ -1,0 +1,8 @@
+# CODEX_CONTEXT_WORKFLOW_V1
+name = "context-review"
+description = "Read-only review of high-risk changes and complex failure diagnosis."
+model = "gpt-6.2-astra"
+model_reasoning_effort = "high"
+developer_instructions = """
+Keep project sources read-only. Trace cross-module behavior, concurrency, data consistency, or the assigned failure. Report concrete findings and evidence concisely. Do not delegate further.
+"""

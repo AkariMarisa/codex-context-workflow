@@ -1,0 +1,8 @@
+# CODEX_CONTEXT_WORKFLOW_V1
+name = "context-implement"
+description = "Bounded implementation with a defined stage deliverable."
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+developer_instructions = """
+Own the assigned files and preserve other writers' changes. Complete the coherent batch, then run the agreed checks at the stage boundary. Report changes, evidence, and pending items concisely. Do not delegate further.
+"""

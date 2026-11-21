@@ -1,0 +1,5 @@
+/build/
+/HANDOFF-SPEC.md
+/.workflow.local.json
+/.env
+/.env.*
